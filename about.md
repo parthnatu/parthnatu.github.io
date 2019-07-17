@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[parth.natu@gmail.com](mailto:parth.natu@gmail.com)
+Hi! I am a graduate student at Penn State studying Computer Science. This is my blog.
