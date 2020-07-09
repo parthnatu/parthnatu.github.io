@@ -1,0 +1,35 @@
+I"9<p>This started off with my introduction to <a href="https://news.ycombinator.com/">HackerNews</a> and a need to create something tangible as a project.
+Fresh out of my internship, I have certain degree of experience writing <strong><code>Java</code></strong>. It might not be the language that’s “hip”, but it runs the world. So this is what the project is:</p>
+
+<p><strong><code>hnfx - A JavaFX based cross-platform GUI client for HackerNews</code></strong></p>
+
+<p>I’m not sure what the structure of this page will be. I’m thinking of this like a scratchpad till the project reaches completion.</p>
+
+<h2 id="current-status">Current status:</h2>
+<p><img src="/images/hacker-news-client/update-july-19-2019-screenshot.png" alt="image-title-here" class="img-responsive" /></p>
+<ul>
+  <li>19th July 2019 :
+    <ul>
+      <li>I am intrigued by asynchronously updating the ListView for the initial api call. Works well for now. I’ll have to do some testing to make sure nothing is getting lost in the thread jungle.</li>
+      <li>JavaFX’s WebView engine is slow. Or it might be my internet connection. Not sure.</li>
+      <li>I want to add Firefox as the engine. I’ll try that.</li>
+      <li>Watching my github commit grid show a dark green square makes me happy.</li>
+    </ul>
+  </li>
+  <li>20th July 2019 :
+    <ul>
+      <li>Java 8’s JavaFX WebView is <a href="https://bugs.openjdk.java.net/browse/JDK-8175802">broken</a> as it cannot render modern fonts</li>
+      <li>Will I need a JRE if I create an exe for Windows, dmg/pkg for Mac etc. ?</li>
+      <li>I’ll implement the data structure for showing the comment tree today</li>
+    </ul>
+  </li>
+  <li>22nd July 2019 :
+    <ul>
+      <li>Updated to Java 12. Fixed the WebView font rendering.</li>
+      <li>I didn’t need to create a data structure for the comment tree. Just created a separate method for populating the TreeView.</li>
+      <li>I’m pretty sure I have screwed up the concurrency for the program. I need to understand and fix that.</li>
+      <li>“based and redpilled”. heh.</li>
+    </ul>
+  </li>
+</ul>
+:ET
