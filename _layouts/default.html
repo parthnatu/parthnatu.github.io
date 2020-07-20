@@ -3,7 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+<style>
+  .vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
 <title>{{ page.title }} | {{site.name}}</title>
@@ -51,7 +57,8 @@ ga('send', 'pageview');
     <ul>
         <h3>Navigation</h3>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
+        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+	<li><a href="{{ site.baseurl }}/resume.pdf">Resumé</a></li>
     </ul>   
 </nav>
 
@@ -67,10 +74,19 @@ ga('send', 'pageview');
 
     <!-- Site Logo/Name
     ================================================== -->
-   
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
+
+    <div style="display: flex">
+      <div style="width:85%">
+      <a class="navbar-brand" href="{{ site.baseurl }}/">
         <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>  
+      </a>
+      </div>
+      <div class="vertical-center align:right">
+      <a href="resume.pdf" style="float: right">
+	<h3>My Resumé</h3>
+      </a>
+      </div>
+    </div>
    
 
     <!-- Site Tag
