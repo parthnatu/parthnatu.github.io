@@ -11,4 +11,4 @@ package.json
 *.sh
 .vscode/*
 *.code-workspace
-.jekyll-cache
+.jekyll-cache/*
